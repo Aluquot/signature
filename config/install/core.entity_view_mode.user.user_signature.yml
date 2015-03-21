@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.user_signature
+label: 'User signature'
+targetEntityType: user
+cache: true

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.user_signature
+    - field.field.user.user.user_signature
+  module:
+    - text
+    - user
+id: user.user.user_signature
+targetEntityType: user
+bundle: user
+mode: user_signature
+content:
+  user_signature:
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    label: hidden
+hidden:
+  member_for: true
+  user_picture: true
